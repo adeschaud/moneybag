@@ -2,16 +2,16 @@ package com.ades.moneybag;
 
 public class Money {
 	
-	private int fAmount;
+	private double fAmount;
 	
 	private String fCurrency;
 	
-	public Money(int amount, String currency) {
+	public Money(double amount, String currency) {
 		fAmount = amount;
 		fCurrency = currency;
 	}
 	
-	public int amount() {
+	public double amount() {
 		return fAmount;
 	}
 	
